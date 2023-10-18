@@ -4,8 +4,7 @@ services:
   app:
     build:
       context: ./node
-      dockerfile: Dockerfile
-      entrypoint: dockerize -wait  tcp://db:3306 -timeout 20s docker-entrypoint.sh
+      dockerfile: Dockerfile      
     restart: always
     volumes:
       - ./node:/usr/src/app
