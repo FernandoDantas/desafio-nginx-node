@@ -11,6 +11,12 @@ Nota: A página deverá ser construída em node mas será acessada pelo nginx at
 
 ---
 
+### Para recriaro container utilize o seguinte comando:
+
+```
+docker-compose-up -d --build
+```
+
 ### Para rodar a aplicação utilize o docker-compose.
 
 ```

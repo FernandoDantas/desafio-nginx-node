@@ -1,5 +1,4 @@
-FROM node:15
-
+FROM node:18
 WORKDIR /usr/src/app
 
 COPY . .
